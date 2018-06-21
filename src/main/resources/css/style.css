@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+body {
+	background: linear-gradient(#556270, #ff6b6b);
+}
+
+#login-box {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:23em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+#login-box img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 3em;
+}
